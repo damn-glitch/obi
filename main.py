@@ -50,10 +50,10 @@ class Block:
 
 class Blockchain:
     def __init__(self):
-        self.chain = [self.create_genesis_block()]
         self.difficulty = 2
         self.pending_transactions = []
         self.mining_reward = 100
+        self.chain = [self.create_genesis_block()]
 
     def create_genesis_block(self):
         genesis_block = Block(
