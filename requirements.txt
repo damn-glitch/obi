@@ -1,3 +1,5 @@
-
+openpyxl
 pandas
-
+plotly
+numpy
+python-dateutil
